@@ -1,0 +1,22 @@
+#port where service shall LISTEN for connection
+listenPort: :3000
+
+#database configuration
+dbType: mysql
+dbUrl: root:@tcp(127.0.0.1:3306)/kmp_news
+
+#elastic config
+elasticURL: http://127.0.0.1:9200
+elasticIndex: kmp_news
+elasticPerpage: 10
+
+#redis configuration
+redisURL: 127.0.0.1:6379
+redisKEY: kmp_news
+#expire 10 second
+redisEXP: 10   
+
+# logging
+log:
+  filename: logs/kmp_news_v2.log
+  level: DEBUG
