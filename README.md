@@ -1,6 +1,4 @@
 # kmp-news
-
-# kmp-news-producer
 Golang &amp; Kafka
 
 ## Add Library
